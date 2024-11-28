@@ -669,6 +669,87 @@ img:hover {
   background-color: transparent;
   animation:load 1s linear infinite;
 }
+/* sonu yadav card css */
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+body{
+    background-color: antiquewhite;
+    
+    background-image: url('https://www.rushlane.com/wp-content/uploads/2024/11/mahindra-electric-suvs-xev9e-be6e-xuvev-interiors-exteriors.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: bisque ;
+    width: 400px; 
+    height: 750px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image{
+    width: auto;
+    height: 350px;;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.car-1{
+background-image: url('https://www.team-bhp.com/sites/default/files/styles/check_extra_large_for_review/public/GdUM7UbYAEx2T6.jpg');
+}
+
+.card h2{
+    padding: 10px;
+}
+.card p{
+    padding: 10px;
+}
+#sonu_yadav_1080{
+    height: 50px;
+    width: 100px;
+    
+    
+  }
+  #sonu_yadav_1080_button{
+    
+    position:absolute ;
+    font-weight: bold;
+    font-size: smaller;
+    background-color: black;
+    color:rgb(242, 15, 15);
+    cursor: pointer;
+    transition: all 0.75s;
+    padding: 15px;
+    
+  }
+  #sonu_yadav_1080_button:hover{
+     
+    color: #0d92f4;
+    box-shadow: 0 0 55px ; 
+    font-size: 15px;
+    transition: 0.6s;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
 
 @keyframes load {
   0%{
