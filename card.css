@@ -682,3 +682,73 @@ img:hover {
   }
 }
 
+.harsh{
+  height: 400px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid transparent;
+  box-shadow: 3px 3px 3px grey;
+}
+
+#harsh_content{
+  height: 100%;
+  width: 100%;
+  /* display: flex; */
+  align-items: center;
+}
+
+#harsh_content h1{
+  text-align: center;
+  margin: 10px 0;
+  color: #FFBD36;
+  font-weight: 800;
+  font-family: sans-serif;
+}
+
+#divide{
+  display: flex;
+  width: 100%;
+  height: 350px;
+  margin: 15px;
+
+}
+#Harsh_img {
+  height: 250px;
+  width: 250px;
+  background: url(https://play-lh.googleusercontent.com/RpoUIZmN4I5pK8YMVTXqFLBmUKRNTBdQUzuyFJdkCji5uBkJlTjiItbNplTF3NbrwHQb=w600-h300-pc0xffffff-pd);
+  background-position: center;
+  background-size: cover;  
+}
+
+#Harsh_img:hover{
+  border: 2px solid;
+border-radius: 20px;
+  border-color: #FFBD36;
+  
+}
+
+#AboutLM{
+  width:200px;
+  padding: 20px;
+  
+
+}
+#AboutLM p{
+font-size: 20px;
+font-weight: 500;
+}
+#harsh_btn button{
+height: 70px;
+width: 130px;
+margin: 12px;
+background-color: #FFBD36;
+border-radius: 25px;
+font-size: 18px;
+}
+
+#harsh_btn button:hover{
+cursor: pointer;
+box-shadow: 1px 1px 1px grey;
+background-color: #fa9420;
+}
