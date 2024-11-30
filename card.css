@@ -670,6 +670,72 @@ img:hover {
   animation:load 1s linear infinite;
 }
 
+
+.vishesh-card{
+  height: 50vw;
+  width: 50vw;
+  border: 3px solid;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(47, 202, 245);
+  box-shadow: 5px 5px 5px grey;
+}
+.card-header{
+  display: flex;
+  width: 50vw;
+  height: 15vw;
+
+}
+.card-header > .vishesh-image > img{
+  width: 175px;
+  height: 17vw;
+} 
+.card-header p{
+  font-size: 22px;
+  font-weight: 700;
+  position: relative;
+  top: 20px;
+  left: 9px;
+  color: white;
+}
+
+.card-desc{
+  height: 18vw;
+  width: 49.3vw;
+  color: white;
+  font-weight: 600;
+}
+.card-desc > div:first-child{font-size: 20px;}
+.card-desc p{font-size: 13px;}
+
+.laptop-color{
+  height: 20px;
+  width: 20px;
+  border: 1px solid white;
+}
+.vishesh-buttons button:first-child{
+  background-color: rgb(47, 202, 245); 
+  font-size: 35px; 
+  font-weight: 700; 
+  color: white; 
+  border: none;
+}
+.vishesh-buttons button:nth-child(2){
+  color: rgb(47, 202, 245);
+  background-color: white;
+  border: none;
+  font-weight: 700;
+  position: relative;
+  left: 150px;
+  box-shadow: 3px 2px 1px grey;
+  &:hover{
+    transform: scale(0.9);
+    transition: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+}
+
+
 @keyframes load {
   0%{
     transform: rotate(0deg);
